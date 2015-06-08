@@ -1,4 +1,7 @@
+package ch.heebnet.snake.gamecomponents;
 import java.awt.Point;
+
+import ch.heebnet.snake.collision.ICollisionObject;
 
 
 public class Wall implements ICollisionObject {

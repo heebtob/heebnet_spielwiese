@@ -1,4 +1,8 @@
+package ch.heebnet.snake.gameboard;
 import java.awt.Color;
+
+import ch.heebnet.snake.gamecomponents.IGameComponent;
+import ch.heebnet.snake.gamecomponents.Kachel;
 
 
 public class BackgroundFactory {

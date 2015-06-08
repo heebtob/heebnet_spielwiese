@@ -1,4 +1,8 @@
+package ch.heebnet.snake.gameloop;
 import javax.swing.JFrame;
+
+import ch.heebnet.snake.gameboard.GameBoard;
+import ch.heebnet.snake.input.KeyboardInput;
 
 
 public class Game {

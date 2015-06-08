@@ -1,5 +1,8 @@
+package ch.heebnet.snake.collision;
 import java.awt.Point;
 import java.util.ArrayList;
+
+import ch.heebnet.snake.gamecomponents.Wall;
 
 
 public class CollisionDetector {

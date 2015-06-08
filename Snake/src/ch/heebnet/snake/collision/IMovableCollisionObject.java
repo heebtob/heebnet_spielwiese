@@ -1,3 +1,4 @@
+package ch.heebnet.snake.collision;
 import java.awt.Point;
 
 

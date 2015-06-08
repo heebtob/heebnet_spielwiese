@@ -1,6 +1,9 @@
+package ch.heebnet.snake.gamecomponents;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
+
+import ch.heebnet.snake.collision.ICollisionObject;
 
 
 public class Gift implements IGameComponent, ICollisionObject {

@@ -1,4 +1,11 @@
+package ch.heebnet.snake.gameboard;
 import java.awt.Color;
+
+import ch.heebnet.snake.collision.CollisionDetector;
+import ch.heebnet.snake.gamecomponents.Gift;
+import ch.heebnet.snake.gamecomponents.IGameComponent;
+import ch.heebnet.snake.gamecomponents.Snake;
+import ch.heebnet.snake.input.KeyboardInput;
 
 
 public class ForegroundFactory {

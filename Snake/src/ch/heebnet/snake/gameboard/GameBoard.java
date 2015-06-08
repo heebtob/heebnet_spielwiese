@@ -1,8 +1,16 @@
+package ch.heebnet.snake.gameboard;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.util.ArrayList;
 
 import javax.swing.JPanel;
+
+import ch.heebnet.snake.collision.CollisionDetector;
+import ch.heebnet.snake.collision.ICollisionObject;
+import ch.heebnet.snake.gamecomponents.Gift;
+import ch.heebnet.snake.gamecomponents.IGameComponent;
+import ch.heebnet.snake.gamecomponents.Snake;
+import ch.heebnet.snake.input.KeyboardInput;
 
 public class GameBoard extends JPanel {
 

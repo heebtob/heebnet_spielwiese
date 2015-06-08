@@ -1,3 +1,4 @@
+package ch.heebnet.snake.gamecomponents;
 import java.awt.Graphics;
 
 

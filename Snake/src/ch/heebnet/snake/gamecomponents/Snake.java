@@ -1,8 +1,14 @@
-﻿import java.awt.Color;
+﻿package ch.heebnet.snake.gamecomponents;
+import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Point;
 import java.awt.event.KeyEvent;
 import java.util.LinkedList;
+
+import ch.heebnet.snake.collision.CollisionDetector;
+import ch.heebnet.snake.collision.ICollisionObject;
+import ch.heebnet.snake.collision.IMovableCollisionObject;
+import ch.heebnet.snake.input.KeyboardInput;
 
 
 public class Snake implements IGameComponent, IMovableCollisionObject {
